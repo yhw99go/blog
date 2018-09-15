@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { HomeComponent } from './home.component';
 

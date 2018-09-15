@@ -33,3 +33,50 @@ input.btn {
     font-weight:bold;
     cursor:pointer;
 }
+
+.page-header {
+    padding: 40px 0px 10px 0px;
+    font-size: 3.5em;
+    font-weight: bold;
+    float:center;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';  
+    width: 100%;
+    position: relative;
+    left: 35%;
+}
+
+.jumbotron{
+    background-color: white;
+    position: absolute;
+    width: 40%;
+    padding-top: 50px;
+    left:43%;
+}
+
+#profilePic {
+    position: absolute;
+    padding-top: 50px;
+    left:25%;
+}
+
+.iconBox{
+    font-size:30px;
+    .fa{
+        margin-right: 35px;
+    }
+    .fa-flag:hover {
+        color: red;
+    }
+    
+    
+ }
+@media only screen and (max-width: 992px) {
+    #profilePic {
+        z-index: -10;
+        position: absolute;
+        padding-top: 50px;
+        left:15%;
+        width: 70%;
+        height: 80%;
+    }
+}
