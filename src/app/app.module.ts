@@ -9,9 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
-import { VerticalTimelineModule } from 'angular-vertical-timeline';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { VerticalTimelineModule } from 'angular-vertical-timeline';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 
 @NgModule({
