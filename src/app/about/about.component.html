@@ -1,3 +1,29 @@
-<p>
-    This is what I'm all about. <a href="" (click)="sendMeHome()"><strong>Take me back</strong></a>.
-</p>
+<!-- Add the timeline -->
+<vertical-timeline>
+
+    <vertical-timeline-card [dateValue]="setDate(2018, 8)" [timebox] = "'2018'">
+     <h2> <fa-icon [icon]="['fas', 'code']" size="sm"></fa-icon> Automation Developer</h2>
+     <h2>@Finastra</h2>
+    </vertical-timeline-card>
+  
+    <vertical-timeline-card [dateValue]="setDate(2017, 8)"[timebox] = "'2017'">
+      <h2> <fa-icon [icon]="['fas', 'university']" size="sm"></fa-icon> Research Assistance & Software Developer</h2>
+      <h2>@TrentUniversity</h2>
+    </vertical-timeline-card>
+
+    <vertical-timeline-card [dateValue]="setDate(2016, 0)"[timebox] = "'2016'">
+        <h2> <fa-icon [icon]="['fas', 'mobile-alt']" size="sm"></fa-icon> Sales Representative</h2>
+        <h2>@Telus</h2>
+    </vertical-timeline-card>
+
+    <vertical-timeline-card [dateValue]="setDate(2015, 0)"[timebox] = "'2015'">
+            <h2> <fa-icon [icon]="['fas', 'dice-three']" size="sm"></fa-icon>  Game Table Dealer</h2>
+            <h2>@Grand Villa Casino</h2> 
+    </vertical-timeline-card>
+
+    <vertical-timeline-card [dateValue]="setDate(2014, 0)"[timebox] = "'2014'">
+            <h2> <fa-icon [icon]="['fas', 'user-lock']" size="sm"></fa-icon>  Security Guard</h2>
+            <h2>@Suncor Energy</h2> 
+    </vertical-timeline-card>
+  
+  </vertical-timeline>

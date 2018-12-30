@@ -23,4 +23,8 @@ export class AboutComponent implements OnInit {
   sendMeHome(){
     this.router.navigate(['']);
   }
+
+  setDate(year: number, date: number){
+    return new Date(year, date);
+  }
 }
