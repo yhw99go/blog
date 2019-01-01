@@ -9,11 +9,6 @@ import { DataService } from '../data.service';
 })
 export class HomeComponent implements OnInit {
 
-  //itemCount: number = 4;
-  //btnText: string = "Add an Items";
-  //goalText: string = "my goal";
-  //goals =[];
-
   constructor(private _data: DataService) {
     this._data.goal.subscribe(res => console.log(res));
    }

@@ -13,12 +13,16 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { VerticalTimelineModule } from 'angular-vertical-timeline';
 import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { ExperienceComponent } from './experience/experience.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +31,8 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
     BrowserAnimationsModule,
     AngularFontAwesomeModule,
     VerticalTimelineModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+ 
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
@@ -35,7 +40,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 export class AppModule { 
   constructor() {
     // Add an icon to the library for convenient access in other components
-    library.add(fas);
+    library.add(fas, fab);
   }
 
 }
