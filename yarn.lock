@@ -355,6 +355,11 @@
     semver "5.6.0"
     semver-intersect "1.4.0"
 
+"@types/bluebird@^3.5.5":
+  version "3.5.38"
+  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.38.tgz#7a671e66750ccd21c9fc9d264d0e1e5330bc9908"
+  integrity sha512-yR/Kxc0dd4FfwtEoLZMoqJbM/VE/W7hXn/MIjb+axcwag0iFmSPK7OBUZq1YWLynJUoWQkfUrI7T0HDqGApNSg==
+
 "@types/jasmine@*":
   version "3.3.5"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.3.5.tgz#3738ffbf34dffae9ecaac4503d7d969744f0e1d7"
@@ -655,10 +660,12 @@ angular-mgl-timeline@^0.2.2:
   dependencies:
     tslib "^1.9.0"
 
-angular-vertical-timeline@0.6.0:
+"angular-vertical-timeline@git+https://github.com/yhw99go/angular-vertical-timeline.git":
   version "0.6.0"
-  resolved "https://registry.yarnpkg.com/angular-vertical-timeline/-/angular-vertical-timeline-0.6.0.tgz#5e949741c2a2ceee37a30c5245195c86745da90d"
-  integrity sha1-XpSXQcKizu43owxSRRlchnRdqQ0=
+  uid feb7fcd89058b01dbaa8b0b0f6e0d78a92ac82db
+  resolved "git+https://github.com/yhw99go/angular-vertical-timeline.git#feb7fcd89058b01dbaa8b0b0f6e0d78a92ac82db"
+  dependencies:
+    "@types/bluebird" "^3.5.5"
 
 ansi-colors@^3.0.0:
   version "3.2.3"
@@ -1996,9 +2003,9 @@ decamelize@^2.0.0:
     xregexp "4.0.0"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.0.1"
